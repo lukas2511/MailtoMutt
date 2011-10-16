@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24120974144AF386008016C6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24120973144AF386008016C6 /* Cocoa.framework */; };
+		2412099B144AF3F9008016C6 /* MailtoMutt.icns in Resources */ = {isa = PBXBuildFile; fileRef = 24120991144AF3F9008016C6 /* MailtoMutt.icns */; };
+		2412099C144AF3F9008016C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24120992144AF3F9008016C6 /* main.m */; };
+		2412099D144AF3F9008016C6 /* Mutt.m in Sources */ = {isa = PBXBuildFile; fileRef = 24120994144AF3F9008016C6 /* Mutt.m */; };
+		2412099E144AF3F9008016C6 /* NSStringExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 24120996144AF3F9008016C6 /* NSStringExt.m */; };
+		2412099F144AF3F9008016C6 /* URLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 24120998144AF3F9008016C6 /* URLHandler.m */; };
+		241209A0144AF3F9008016C6 /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24120999144AF3F9008016C6 /* version.plist */; };
+		241209A6144AF52D008016C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 241209A2144AF52D008016C6 /* InfoPlist.strings */; };
+		241209A7144AF52D008016C6 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 241209A4144AF52D008016C6 /* MainMenu.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2412096F144AF386008016C6 /* MailtoMutt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailtoMutt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24120973144AF386008016C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		24120976144AF386008016C6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		24120977144AF386008016C6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		24120978144AF386008016C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2412098F144AF3F9008016C6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		24120990144AF3F9008016C6 /* MailtoMutt_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailtoMutt_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		24120991144AF3F9008016C6 /* MailtoMutt.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MailtoMutt.icns; sourceTree = SOURCE_ROOT; };
+		24120992144AF3F9008016C6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		24120993144AF3F9008016C6 /* Mutt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mutt.h; sourceTree = SOURCE_ROOT; };
+		24120994144AF3F9008016C6 /* Mutt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mutt.m; sourceTree = SOURCE_ROOT; };
+		24120995144AF3F9008016C6 /* NSStringExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExt.h; sourceTree = SOURCE_ROOT; };
+		24120996144AF3F9008016C6 /* NSStringExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExt.m; sourceTree = SOURCE_ROOT; };
+		24120997144AF3F9008016C6 /* URLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHandler.h; sourceTree = SOURCE_ROOT; };
+		24120998144AF3F9008016C6 /* URLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHandler.m; sourceTree = SOURCE_ROOT; };
+		24120999144AF3F9008016C6 /* version.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = version.plist; sourceTree = SOURCE_ROOT; };
+		241209A3144AF52D008016C6 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		241209A5144AF52D008016C6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = MainMenu.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2412096C144AF386008016C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24120974144AF386008016C6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2412095F144AEC75008016C6 = {
+			isa = PBXGroup;
+			children = (
+				24120979144AF386008016C6 /* MailtoMutt */,
+				24120972144AF386008016C6 /* Frameworks */,
+				24120970144AF386008016C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24120970144AF386008016C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2412096F144AF386008016C6 /* MailtoMutt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24120972144AF386008016C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24120973144AF386008016C6 /* Cocoa.framework */,
+				24120975144AF386008016C6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24120975144AF386008016C6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24120976144AF386008016C6 /* AppKit.framework */,
+				24120977144AF386008016C6 /* CoreData.framework */,
+				24120978144AF386008016C6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		24120979144AF386008016C6 /* MailtoMutt */ = {
+			isa = PBXGroup;
+			children = (
+				241209A1144AF52D008016C6 /* English.lproj */,
+				2412098F144AF3F9008016C6 /* Info.plist */,
+				24120990144AF3F9008016C6 /* MailtoMutt_Prefix.pch */,
+				24120991144AF3F9008016C6 /* MailtoMutt.icns */,
+				24120992144AF3F9008016C6 /* main.m */,
+				24120993144AF3F9008016C6 /* Mutt.h */,
+				24120994144AF3F9008016C6 /* Mutt.m */,
+				24120995144AF3F9008016C6 /* NSStringExt.h */,
+				24120996144AF3F9008016C6 /* NSStringExt.m */,
+				24120997144AF3F9008016C6 /* URLHandler.h */,
+				24120998144AF3F9008016C6 /* URLHandler.m */,
+				24120999144AF3F9008016C6 /* version.plist */,
+			);
+			path = MailtoMutt;
+			sourceTree = "<group>";
+		};
+		241209A1144AF52D008016C6 /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				241209A2144AF52D008016C6 /* InfoPlist.strings */,
+				241209A4144AF52D008016C6 /* MainMenu.nib */,
+			);
+			path = English.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2412096E144AF386008016C6 /* MailtoMutt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2412098D144AF386008016C6 /* Build configuration list for PBXNativeTarget "MailtoMutt" */;
+			buildPhases = (
+				2412096B144AF386008016C6 /* Sources */,
+				2412096C144AF386008016C6 /* Frameworks */,
+				2412096D144AF386008016C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailtoMutt;
+			productName = MailtoMutt;
+			productReference = 2412096F144AF386008016C6 /* MailtoMutt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24120961144AEC75008016C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 24120964144AEC75008016C6 /* Build configuration list for PBXProject "MailtoMutt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 2412095F144AEC75008016C6;
+			productRefGroup = 24120970144AF386008016C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2412096E144AF386008016C6 /* MailtoMutt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2412096D144AF386008016C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2412099B144AF3F9008016C6 /* MailtoMutt.icns in Resources */,
+				241209A0144AF3F9008016C6 /* version.plist in Resources */,
+				241209A6144AF52D008016C6 /* InfoPlist.strings in Resources */,
+				241209A7144AF52D008016C6 /* MainMenu.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2412096B144AF386008016C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2412099C144AF3F9008016C6 /* main.m in Sources */,
+				2412099D144AF3F9008016C6 /* Mutt.m in Sources */,
+				2412099E144AF3F9008016C6 /* NSStringExt.m in Sources */,
+				2412099F144AF3F9008016C6 /* URLHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		241209A2144AF52D008016C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241209A3144AF52D008016C6 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		241209A4144AF52D008016C6 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241209A5144AF52D008016C6 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24120966144AEC75008016C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		24120967144AEC75008016C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		2412098B144AF386008016C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MailtoMutt_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2412098C144AF386008016C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MailtoMutt_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24120964144AEC75008016C6 /* Build configuration list for PBXProject "MailtoMutt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24120966144AEC75008016C6 /* Debug */,
+				24120967144AEC75008016C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2412098D144AF386008016C6 /* Build configuration list for PBXNativeTarget "MailtoMutt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2412098B144AF386008016C6 /* Debug */,
+				2412098C144AF386008016C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24120961144AEC75008016C6 /* Project object */;
+}
