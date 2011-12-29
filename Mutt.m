@@ -78,6 +78,7 @@
 #	warning zombie files left in temp dir, cant find logical way to clean up
 	/* unlink(template); don't delete the file - mutt probably hasn't openned it. If we can monitor vnode /access/, maybe this can be solved */
 	free(template); /* deallocate the template string */
+  [NSApp terminate:nil];
 }
 
 /* concatenates content to message */
