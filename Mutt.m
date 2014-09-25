@@ -13,7 +13,7 @@
 	NSDebug(@"Opening mutt with file %@", path);
 
 	/* create the source to the script */
-	NSString *source = [ NSString stringWithFormat:@"tell application \"Terminal\"\nactivate\ndo script \"mutt -H '%@' \"\nend tell", path ];
+    NSString *source = [ NSString stringWithFormat:@"tell application \"iTerm\"\nactivate\nset myterm to (make new terminal)\ntell myterm\nset mysession to (make new session at the end of sessions)\ntell mysession\nexec command \"/usr/local/bin/mutt -H \\\"%@\\\"\"\nend tell\nend tell\nend tell", path ];
 
 	/* create the NSAppleScript object with the source */
 #	warning NSAppleScript has a leak when initializing objects
